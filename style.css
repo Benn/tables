@@ -1,0 +1,82 @@
+body {
+	font-family: 'Aclonica';font-size: 22px;
+	margin:10px;
+}
+#timer {
+	font-size:x-small;
+}
+#presentation {
+	font-size:small;
+}
+#selectors {
+	margin: 0px 0px 20px 0px;
+}
+#question, #result {
+	font-size : 5rem;
+}
+#result {
+	width:150px;
+}
+input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+#question {
+	width : 590px;
+}
+.btn {
+	margin-bottom:10px;
+}
+table {
+	font-size: small;
+}
+th, .label{
+	color: #6D929B;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-align: center;
+	padding: 6px 6px 6px 12px;
+	font-weight: bold;
+	width:60px;
+	height:20px;
+}
+
+td, td.label {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: none;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+}
+.feedback {
+	position:absolute;
+	height:200px;
+	width:200px;
+	display:inline;
+}
+.great {
+	background-color: mediumseagreen;
+}
+.ok {
+	background-color: lightgreen;
+}
+.average {
+	background-color: gold;
+}
+.poor {
+	background-color: orange;
+}
+.bad {
+	background-color: salmon;
+}
+#legend {
+	font-size: 1rem;
+}
+.tables, input, label{
+	display:inline;
+}
+#presentation {
+	margin:15px;
+}
